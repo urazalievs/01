@@ -1,0 +1,16 @@
+.container {
+  max-width: 1590px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.text {
+  color: #666666;
+}
+
+/*# sourceMappingURL=accelerator.css.map */

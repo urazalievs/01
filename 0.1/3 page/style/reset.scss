@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Urbanist', sans-serif, 'Montserrat';
+  //background-color: #141414;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}

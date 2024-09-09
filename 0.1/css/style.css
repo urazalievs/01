@@ -1,0 +1,364 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Urbanist','Montserrat','Montserrat Alternates','Inter', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+.all-button{
+    padding: 18px 24px;
+    background-color: #1A1A1A;
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+li {
+    list-style: none;
+}
+header{
+    background-color: #141414;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #141414;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__advertising{
+    position: relative;
+    background-color: #141414;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__advertising-link{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.nav__advertising-button {
+    position: absolute;
+    right: 30px;
+    background-color: #1A1A1A;
+    border-radius: 40%;
+}
+
+.nav__flex {
+    height: 100px;
+    background-color: #1A1A1A;
+}
+.nav__logo-text{
+    margin-left: 5px;
+}
+
+.nav__menu-list{
+    margin-left: 30px;
+    padding: 14px 24px;
+    border: 1px solid #141414;
+
+}
+.nav__menu-list:hover{
+    background-color:#141414;
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+.nav__regist{
+    padding: 16px 24px;
+    border: 1px solid #666666;
+}
+
+.content{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    background-color: #141414;
+}
+.content__info{
+
+}
+.content__info-container{
+    padding: 144px 0 144px 70px;
+
+}
+
+.content__info-title{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%       ;
+}
+.content__info-text{
+    color: #999;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 24px  0 60px 0;
+}
+.content__info-button{
+    padding: 14px 24px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.content__info-button:hover{
+    background-color: #703BF7;
+
+}
+.content__info-card{
+ justify-content: flex-start;
+}
+.content__card-style{
+    background-color: #1A1A1A;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    padding: 16px 24px;
+    margin:78px 20px 0 0;
+    max-width: 239px;
+}
+.content__card-style h2{
+   font-size: 40px;
+}
+.content__logo{
+    position: absolute;
+    left: 50%;
+    bottom: 70%;
+    background-color: rgba(102, 102, 102, 0.1);
+    border-radius: 50%;
+    padding: 20px;
+    border: 1px solid rgba(126, 116, 116, 0.31);
+}
+.content__img{
+   max-width: 800px;
+    max-height:100%;
+}
+
+.header__info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.header__info-card{
+    padding: 64px 20px;
+    position: relative;
+    max-width: 455px;
+    max-height: 212px;
+    background-color: #1A1A1A;
+    text-align: center;
+    border: 1px solid rgba(126, 116, 116, 0.31);
+    border-radius: 10px;
+}
+.header__card-icon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #666666;
+}
+
+main{
+    padding: 0 70px 150px 70px;
+    background-color: #141414;
+}
+.main__title{
+    font-size: 48px;
+    padding: 170px 0 15px 0;
+}
+.main__text{
+   align-items: flex-start;
+    justify-content: space-between;
+
+}
+.main__text-tt {
+    color: #666666;
+    margin-bottom: 80px;
+    max-width: 1000px;
+}
+.main__card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.main__card-grid{
+        padding: 40px;
+    background-color: #1A1A1A;
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+.main__card-img{
+    max-width: 350px;
+}
+.main__card-grid,h3{
+    font-size: 24px;
+    margin: 30px 0 6px;
+}
+.color666 {
+    color: #666666;
+}
+.main__card-variant{
+    display: flex;
+    gap: 14px;
+}
+.main__card-variant-room{
+    display: flex;
+    align-items: center;
+
+}
+.main__card-variant-room{
+    padding: 8px 4px;
+    background-color: #1A1A1A;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    margin: 38px 0;
+}
+.main__card-price-text p{
+    color: #666666;
+}
+.main__card-price-cash{
+    color: #ffffff;
+    font-size: 24px;
+
+}
+.main__card-price-link{
+    padding: 18px 24px;
+    background-color: #703BF7;
+    border-radius: 10px;
+}
+.hr-line{
+    color: rgba(102, 102, 102, 0.19);
+    margin: 50px 0 20px 0;
+}
+.main__page{
+    justify-content: space-between;
+}
+.main__page-icon{
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.main__page-icon-img{
+    border: 1px solid #666666;
+    background-color: #1A1A1A;
+    padding: 10px;
+    border-radius: 50%;
+}
+.main__review-card{
+    gap: 30px;
+}
+.card__name-star{
+
+}
+.card__name-person{
+    margin: 0 0 40px 0;
+}
+.card__name-title{
+    font-size: 24px;
+    margin: 40px 0 14px 0;
+
+}
+.card__name{
+    padding: 50px 40px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+.main__say-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.main__say-flex-title{
+    font-size: 24px;
+}
+.main__say-flex-text{
+    color: #666666;
+}
+.main__say-flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #141414;
+}
+.footer__star{
+    justify-content: space-between;
+}
+
+.footer__start-flex{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 150px 0px;
+}
+
+.test-block{
+    height: 400px;
+    width: 100%;
+    max-width: 1000px;
+    background: #e17575;
+}
+.footer__start-flex-text{
+    font-size: 48px;
+}
+
+.footer__regist{
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer__regist-skelet{
+    gap: 110px;
+}
+.grey{
+
+    color: #666666;
+    margin-bottom: 30px;
+}
+.footer__regist-mail-logo{
+    justify-content: flex-start;
+    gap: 20px;
+}
+.footer__regist-skelet-about-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__link{
+    width: 100%;
+    justify-content: space-around;
+    background-color: #1A1A1A;
+    padding: 40px ;
+    margin-top: 90px;
+}
+.footer__link-data{
+    gap: 50px;
+}
+.footer__link-internet{
+    gap: 30px;
+}

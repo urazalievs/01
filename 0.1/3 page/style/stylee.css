@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Urbanist", sans-serif, "Montserrat";
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1590px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.text {
+  color: #666666;
+}
+
+/*# sourceMappingURL=stylee.css.map */
